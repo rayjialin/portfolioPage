@@ -66,7 +66,9 @@
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
           <h1 class="mb-0">Rui Jia Lin
-            <span class="text-primary">(Ray)</span>
+            <span class="text-primary">
+              <span class="typeIt"></span>
+            </span>
           </h1>
           <div class="subheading mb-5">College Point, NY 11356 · (718) 496-0737
             <!-- <a href="mailto:ruijialin@gmail.com">ruijialin@gmail.com</a> -->
@@ -86,6 +88,14 @@
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://angel.co/ruijia-lin">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-angellist fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
             </li>
@@ -185,13 +195,13 @@
             <ul class="fa-ul mb-0">
               <li>
                 <i class="fa-li fa fa-beer text-warning"></i>
-                <div class="subheading mb-3">Beer Pong AR</div>
+                <div class="subheading mb-3"><a href="https://github.com/rayjialin/BeerGamesAR">Beer Pong AR</a></div>
                 <p>A multiplayer AR Beer Pong game that uses ARKit and Scenekit to create beer pong scene, and synchronize game state
                     in realtime using Firebase and Google Cloud Anchor.  We aimed to make playing beer pong game accessible to anyone and anywhere.</p>
               </li>
               <li>
                 <i class="fa-li fa fa-header text-warning"></i>
-                <div class="subheading mb-3">HeadsUp</div>
+                <div class="subheading mb-3"><a href="https://github.com/rayjialin/HeadsUp">HeadsUp</a></div>
                 <p>The app uses MapKit and Core Location to display user location on the map, GeoFire to detect nearby user within
                     certain radius; and Firebase manages all the connections for each user.  The purpose of this app is to promote people to meet new friends and talk to people instead of looking down on their
                     phones.</p>
@@ -288,8 +298,12 @@
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
+    <!-- script for type writter effect -->
+    <script src="dist/typeit.min.js"></script>
+
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
+    <script src="js/resume.js"></script>
 
   </body>
 
