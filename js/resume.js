@@ -51,7 +51,7 @@ $(document).ready(function(){
   .type("| SAP Consultant")
   .delete(14)
   .options({speed: 50})
-  .type('iOS Developer')
+  .type('iOS Engineer')
   .cursor(true);
   // .delete();
 })
